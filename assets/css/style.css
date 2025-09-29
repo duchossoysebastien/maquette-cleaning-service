@@ -198,11 +198,12 @@ nav{
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 10px;
+    margin-top: 20px;
 }
 
 .viewallservices button{
-    padding: 10px; 
+    padding: 10px;
+    justify-content: space-between; 
 }
 
 .viewallservices button:first-child {
