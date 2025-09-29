@@ -366,7 +366,10 @@ aside img{
     position: absolute;
     margin-left: 130%;
     margin-top: 40px;
-    padding: 5px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    font-size: 0.7rem;
 }
 .contacttext p{
     margin-bottom: 10px;
