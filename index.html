@@ -22,11 +22,11 @@
 
             <div class="navbar">
                 
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 
             </div>
 
@@ -38,7 +38,7 @@
         </nav>
             <div class="header-text">
 
-                <p>Professional cleaning services</p>
+                <p id="Home">Professional cleaning services</p>
                 <h1 class="titles">Commercial & Residential<br> Cleaning</h1>
 
             </div>
@@ -71,7 +71,7 @@
 
         <div class="titre-services">
 
-            <h2>We Provide The Best Services</h2>
+            <h2 id="Services">We Provide The Best Services</h2>
             <p>Integer at faucibus urna nullam condimentum leo idelit sagittis auctor curabitur<br> elementum nunc imperdiet.</p>
 
         </div>
@@ -117,7 +117,7 @@
         </div>
 
         
-        <div class="about">
+        <div class="about" id="About">
             <div class="leaders">
 
                 <div class="leaders-text">
@@ -208,7 +208,7 @@
             </div>
 
         </div>
-        <div class="soustitres">
+        <div class="soustitres" id="Blog">
             <p>Customer reviews</p>
             <h2>What our customers are saying</h2>
         </div>
@@ -295,38 +295,40 @@
 
     <aside>
 
-        <img src="" alt="">
-        <p>Call us now: (123) 4567 890</p>
-        <div class="contactus">
-            <h2>Are you looking for professional cleaning services?</h2>
-            <input type="button" value="">
-        </div>
+        <img src="/assets/images/home-contact-section-background.webp" alt="">
+            <div class="contacttext">
+            <p id="Contact">Call us now: (123) 4567 890</p>
+                <div class="contactus">
+                    <h2>Are you looking for<br>professional cleaning services?</h2>
+                    <input class="contactbutton" type="button" value="Contact us" id="Contatc us">
+                </div>
+            </div>
 
     </aside>
 
     <footer>
         <div class="footer">
-
+            <div class="infos">
             <div class="footer-cleaning-services">
 
                 <h3>Cleaning Service</h3>
+                <br>
                 <p>Egestas purus viverra accumsan in nis in metus dictum at tempor commodo.</p>
                 <p>Sagittis nisl rhoncus mattis rhoncus urna neque viverra eleifend pulvinar.</p>
-                <div>
-                    <img class="footer-logos" src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="footerlogo">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    
                 </div>
 
             </div>
 
-            <div>
-
                 <div class="footer-quick-link">
 
                     <h3>Quick Link</h3>
-
+                    <br>
                     <li>Home</li>
                     <li>ervices</li>
                     <li>About</li>
@@ -341,7 +343,7 @@
                 <div class="footer-services">
 
                     <h3>Services</h3>
-
+                    <br>
                     <li>House cleaning</li>
                     <li>Office cleaning</li>
                     <li>Laundry service</li>
@@ -350,8 +352,6 @@
                     <li>Pool cleaning</li>
                     <li>Garage cleaning</li>
                     <li>Garden cleaning</li>
-
-                </div>
 
             </div>
 
@@ -369,8 +369,9 @@
                 <p>(123) 4567 890</p>
 
             </div>
+        </div>
 
-            <p>Copyright © 2025 - Designed by CreativeThemes.</p>
+            <p class="copyright">Copyright © 2025 - Designed by CreativeThemes.</p>
 
         </div>
     </footer>
